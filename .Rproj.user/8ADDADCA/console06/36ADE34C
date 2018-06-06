@@ -3,3 +3,35 @@ Initialized empty Git repository in /Users/stephen.wood/Box Sync/Work/Code/usda-
 ]0;~/Box Sync/Work/Code/usda-soil-qualityCT201-SWOOD:usda-soil-quality stephen.wood$ git add [K[K[K[K[K[K[K[Kgit remote add origin "https://github.com/swood-e cology/usda-soil-quality.git""[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/swood-eco[1Plogy/usda-soil-quality.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 
 ]0;~/Box Sync/Work/Code/usda-soil-qualityCT201-SWOOD:usda-soil-quality stephen.wood$ git add .
+]0;~/Box Sync/Work/Code/usda-soil-qualityCT201-SWOOD:usda-soil-quality stephen.wood$ git commit - [Km "Added coe[Kde and mock data for USDA  SMAR [K[KF soil quality assessment [K in R"
+[master (root-commit) f72d8af] Added code and mock data for USDA SMAF soil quality assessment in R
+ 18 files changed, 759 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .Rproj.user/8ADDADCA/console06/36ADE34C
+ create mode 100644 .Rproj.user/8ADDADCA/console06/36ADE34C.env
+ create mode 100644 .Rproj.user/8ADDADCA/console06/INDEX001
+ create mode 100644 .Rproj.user/8ADDADCA/sources/prop/E85C1665
+ create mode 100644 .Rproj.user/8ADDADCA/sources/prop/INDEX
+ create mode 100644 .Rproj.user/8ADDADCA/sources/s-574CE5A7/A247701E
+ create mode 100644 .Rproj.user/8ADDADCA/sources/s-574CE5A7/A247701E-contents
+ create mode 100644 .Rproj.user/8ADDADCA/sources/s-574CE5A7/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 code/.Rhistory
+ create mode 100644 code/SMAFExampleCode.R
+ create mode 100644 code/SMAFExampleCode.txt
+ create mode 100644 data/CropFactors.csv
+ create mode 100644 data/SMAF-0-10 cm (ver.2014-06).xlsx
+ create mode 100644 data/SMAFExample.csv
+ create mode 100644 data/SuborderClasses.csv
+ create mode 100644 usda-soil-quality.Rproj
+]0;~/Box Sync/Work/Code/usda-soil-qualityCT201-SWOOD:usda-soil-quality stephen.wood$ igt [K[K[K[Kgit push -u origin master
+Counting objects: 27, done.
+Delta compression using up to 4 threads.
+Compressing objects:   4% (1/24)   Compressing objects:   8% (2/24)   Compressing objects:  12% (3/24)   Compressing objects:  16% (4/24)   Compressing objects:  20% (5/24)   Compressing objects:  25% (6/24)   Compressing objects:  29% (7/24)   Compressing objects:  33% (8/24)   Compressing objects:  37% (9/24)   Compressing objects:  41% (10/24)   Compressing objects:  45% (11/24)   Compressing objects:  50% (12/24)   Compressing objects:  54% (13/24)   Compressing objects:  58% (14/24)   Compressing objects:  62% (15/24)   Compressing objects:  66% (16/24)   Compressing objects:  70% (17/24)   Compressing objects:  75% (18/24)   Compressing objects:  79% (19/24)   Compressing objects:  83% (20/24)   Compressing objects:  87% (21/24)   Compressing objects:  91% (22/24)   Compressing objects:  95% (23/24)   Compressing objects: 100% (24/24)   Compressing objects: 100% (24/24), done.
+Writing objects:   3% (1/27)   Writing objects:   7% (2/27)   Writing objects:  11% (3/27)   Writing objects:  14% (4/27)   Writing objects:  18% (5/27)   Writing objects:  22% (6/27)   Writing objects:  25% (7/27)   Writing objects:  29% (8/27)   Writing objects:  33% (9/27)   Writing objects:  37% (10/27)   Writing objects:  40% (11/27)   Writing objects:  44% (12/27)   Writing objects:  48% (13/27)   Writing objects:  51% (14/27)   Writing objects:  55% (15/27)   Writing objects:  62% (17/27)   Writing objects:  66% (18/27)   Writing objects:  70% (19/27)   Writing objects:  74% (20/27)   Writing objects:  77% (21/27)   Writing objects:  81% (22/27)   Writing objects:  85% (23/27)   Writing objects:  88% (24/27)   Writing objects:  92% (25/27)   Writing objects:  96% (26/27)   Writing objects: 100% (27/27)   Writing objects: 100% (27/27), 549.08 KiB | 6.46 MiB/s, done.
+Total 27 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/swood-ecology/usda-soil-quality.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Box Sync/Work/Code/usda-soil-qualityCT201-SWOOD:usda-soil-quality stephen.wood$ [KCT201-SWOOD:usda-soil-quality stephen.wood$ git add .
